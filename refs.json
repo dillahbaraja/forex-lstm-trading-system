@@ -1,0 +1,282 @@
+[
+  {
+    "title": "A survey on sentiment analysis methods, applications, and challenges",
+    "authors": "Mayur Wankhade, Annavarapu Chandra Sekhara Rao, Chaitanya Kulkarni",
+    "year": 2022,
+    "venue": "Artificial Intelligence Review",
+    "doi": "https://doi.org/10.1007/s10462-022-10144-1",
+    "citations": 1398
+  },
+  {
+    "title": "A Survey of Forex and Stock Price Prediction Using Deep Learning",
+    "authors": "Zexin Hu, Yiqi Zhao, Matloob Khushi",
+    "year": 2021,
+    "venue": "Applied System Innovation",
+    "doi": "https://doi.org/10.3390/asi4010009",
+    "citations": 318
+  },
+  {
+    "title": "Stock Market Prediction Using Machine Learning Techniques: A Decade Survey on Methodologies, Recent Developments, and Future Directions",
+    "authors": "Nusrat Rouf, Majid Bashir Malik, Tasleem Arif, Sparsh Sharma, Saurabh Singh, Satyabrata Aich, Hee‐Cheol Kim",
+    "year": 2021,
+    "venue": "Electronics",
+    "doi": "https://doi.org/10.3390/electronics10212717",
+    "citations": 259
+  },
+  {
+    "title": "Integrating Artificial Intelligence Internet of Things and 5G for Next-Generation Smartgrid: A Survey of Trends Challenges and Prospect",
+    "authors": "Ebenezer Esenogho, Karim Djouani, Anish Kurien",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "doi": "https://doi.org/10.1109/access.2022.3140595",
+    "citations": 226
+  },
+  {
+    "title": "Forecasting Stock Market Prices Using Machine Learning and Deep Learning Models: A Systematic Review, Performance Analysis and Discussion of Implications",
+    "authors": "Gaurang Sonkavde, Deepak Dharrao, Anupkumar M. Bongale, Sarika T. Deokate, D. Deepak, Subraya Krishna Bhat",
+    "year": 2023,
+    "venue": "International Journal of Financial Studies",
+    "doi": "https://doi.org/10.3390/ijfs11030094",
+    "citations": 211
+  },
+  {
+    "title": "Forecasting directional movement of Forex data using LSTM with technical and macroeconomic indicators",
+    "authors": "Deniz Can Yıldırım, İsmail Hakkı Toroslu, Ugo Fiore",
+    "year": 2021,
+    "venue": "Financial Innovation",
+    "doi": "https://doi.org/10.1186/s40854-020-00220-2",
+    "citations": 192
+  },
+  {
+    "title": "A stock price prediction method based on deep learning technology",
+    "authors": "Xuan Ji, Jiachen Wang, Zhijun Yan",
+    "year": 2021,
+    "venue": "International Journal of Crowd Science",
+    "doi": "https://doi.org/10.1108/ijcs-05-2020-0012",
+    "citations": 169
+  },
+  {
+    "title": "A convolutional neural network based approach to financial time series prediction",
+    "authors": "M. Durairaj, B. H. Krishna Mohan",
+    "year": 2022,
+    "venue": "Neural Computing and Applications",
+    "doi": "https://doi.org/10.1007/s00521-022-07143-2",
+    "citations": 140
+  },
+  {
+    "title": "A Systematic Study on Reinforcement Learning Based Applications",
+    "authors": "Keerthana Sivamayilvelan, Elakkiya Rajasekar, Belqasem Aljafari, Srete Nikolovski, V. Subramaniyaswamy, V. Indragandhi",
+    "year": 2023,
+    "venue": "Energies",
+    "doi": "https://doi.org/10.3390/en16031512",
+    "citations": 137
+  },
+  {
+    "title": "Machine learning sentiment analysis, COVID-19 news and stock market reactions",
+    "authors": "Michele Costola, Oliver Hinz, Michael Nofer, Loriana Pelizzon",
+    "year": 2023,
+    "venue": "Research in International Business and Finance",
+    "doi": "https://doi.org/10.1016/j.ribaf.2023.101881",
+    "citations": 131
+  },
+  {
+    "title": "Deep learning-based exchange rate prediction during the COVID-19 pandemic",
+    "authors": "Mohammad Zoynul Abedin, Mahmudul Hasan Moon, M. Kabir Hassan, Petr Hájek",
+    "year": 2021,
+    "venue": "Annals of Operations Research",
+    "doi": "https://doi.org/10.1007/s10479-021-04420-6",
+    "citations": 131
+  },
+  {
+    "title": "Financial Time Series Forecasting with the Deep Learning Ensemble Model",
+    "authors": "Kaijian He, Qian Yang, Lei Ji, Jingcheng Pan, Yingchao Zou",
+    "year": 2023,
+    "venue": "Mathematics",
+    "doi": "https://doi.org/10.3390/math11041054",
+    "citations": 120
+  },
+  {
+    "title": "Deep learning in the stock market—a systematic survey of practice, backtesting, and applications",
+    "authors": "Kenniy Olorunnimbe, Herna L. Viktor",
+    "year": 2022,
+    "venue": "Artificial Intelligence Review",
+    "doi": "https://doi.org/10.1007/s10462-022-10226-0",
+    "citations": 116
+  },
+  {
+    "title": "A Novel Improved Particle Swarm Optimization With Long-Short Term Memory Hybrid Model for Stock Indices Forecast",
+    "authors": "Y. Y. Ji, Alan Wee‐Chung Liew, Lixia Yang",
+    "year": 2021,
+    "venue": "IEEE Access",
+    "doi": "https://doi.org/10.1109/access.2021.3056713",
+    "citations": 94
+  },
+  {
+    "title": "Stock-Price Forecasting Based on XGBoost and LSTM",
+    "authors": "Pham Hoang Vuong, Trinh Tan Dat, Tieu Khoi, Pham Hoang Uyen, Pham The Bao",
+    "year": 2021,
+    "venue": "Computer Systems Science and Engineering",
+    "doi": "https://doi.org/10.32604/csse.2022.017685",
+    "citations": 87
+  },
+  {
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "authors": "Sangmin Park, Young‐Gab Kim",
+    "year": 2022,
+    "venue": "IEEE Access",
+    "doi": "https://doi.org/10.1109/access.2021.3140175",
+    "citations": 1740
+  },
+  {
+    "title": "RUN beyond the metaphor: An efficient optimization algorithm based on Runge Kutta method",
+    "authors": "Iman Ahmadianfar, Ali Asghar Heidari, Amir H. Gandomi, Xuefeng Chu, Huiling Chen",
+    "year": 2021,
+    "venue": "Expert Systems with Applications",
+    "doi": "https://doi.org/10.1016/j.eswa.2021.115079",
+    "citations": 1054
+  },
+  {
+    "title": "A Topic Modeling Comparison Between LDA, NMF, Top2Vec, and BERTopic to Demystify Twitter Posts",
+    "authors": "Roman Egger, Joanne Yu",
+    "year": 2022,
+    "venue": "Frontiers in Sociology",
+    "doi": "https://doi.org/10.3389/fsoc.2022.886498",
+    "citations": 852
+  },
+  {
+    "title": "Multimodal Learning With Transformers: A Survey",
+    "authors": "Peng Xu, Xiatian Zhu, David A. Clifton",
+    "year": 2023,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "https://doi.org/10.1109/tpami.2023.3275156",
+    "citations": 836
+  },
+  {
+    "title": "Multi-agent deep reinforcement learning: a survey",
+    "authors": "Sven Gronauer, Klaus Diepold",
+    "year": 2021,
+    "venue": "Artificial Intelligence Review",
+    "doi": "https://doi.org/10.1007/s10462-021-09996-w",
+    "citations": 800
+  },
+  {
+    "title": "Wicked Problems in Public Policy",
+    "authors": "Brian Head",
+    "year": 2023,
+    "venue": "Unknown",
+    "doi": "https://doi.org/10.1007/978-3-030-90434-0_43-1",
+    "citations": 738
+  },
+  {
+    "title": "Classification of Skin Disease Using Deep Learning Neural Networks with MobileNet V2 and LSTM",
+    "authors": "Parvathaneni Naga Srinivasu, Jalluri Gnana SivaSai, Muhammad Fazal Ijaz, Akash Kumar Bhoi, Wonjoon Kim, James Jin Kang",
+    "year": 2021,
+    "venue": "Sensors",
+    "doi": "https://doi.org/10.3390/s21082852",
+    "citations": 733
+  },
+  {
+    "title": "CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling",
+    "authors": "Bowen Deng, Peichen Zhong, KyuJung Jun, Janosh Riebesell, Kevin Han, Christopher J. Bartel, Gerbrand Ceder",
+    "year": 2023,
+    "venue": "Nature Machine Intelligence",
+    "doi": "https://doi.org/10.1038/s42256-023-00716-3",
+    "citations": 732
+  },
+  {
+    "title": "Climate change and COP26: Are digital technologies and information management part of the problem or the solution? An editorial reflection and call to action",
+    "authors": "Yogesh K. Dwivedi, Laurie Hughes, Arpan Kumar Kar, Abdullah M. Baabdullah, Purva Grover, Roba Abbas, Daniela Andreini, Iyad Abumoghli, Yves Barlette, Deborah Bunker, Leona Chandra Kruse, Ioanna Constantiou, Robert M. Davison, Rahul Dé, Rameshwar Dubey, Henry Fenby-Taylor, Babita Gupta, Wu He, Mitsuru Kodama, Matti Mäntymäki, Bhimaraya Metri, Katina Michael, Johan Olaisen, Niki Panteli, Samuli Pekkola, Rohit Nishant, Ramakrishnan Raman, Nripendra P. Rana, Frantz Rowe, Suprateek Sarker, Brenda Scholtz, Maung K. Sein, Jeel Dharmeshkumar Shah, Thompson S.H. Teo, Manoj Kumar Tiwari, Morten Thanning Vendelø, Michael Wade",
+    "year": 2021,
+    "venue": "International Journal of Information Management",
+    "doi": "https://doi.org/10.1016/j.ijinfomgt.2021.102456",
+    "citations": 714
+  },
+  {
+    "title": "Preferred reporting items for systematic reviews and meta‐analyses in ecology and evolutionary biology: a <scp>PRISMA</scp> extension",
+    "authors": "Rose E. O’Dea, Malgorzata Lagisz, Michael D. Jennions, Julia Koricheva, Daniel W. A. Noble, Timothy Parker, Jessica Gurevitch, Matthew J. Page, Gavin Stewart, David Moher, Shinichi Nakagawa",
+    "year": 2021,
+    "venue": "Biological reviews/Biological reviews of the Cambridge Philosophical Society",
+    "doi": "https://doi.org/10.1111/brv.12721",
+    "citations": 619
+  },
+  {
+    "title": "6G for Vehicle-to-Everything (V2X) Communications: Enabling Technologies, Challenges, and Opportunities",
+    "authors": "Md. Noor‐A‐Rahim, Zilong Liu, Haeyoung Lee, Mohammad Omar Khyam, Jianhua He, Dirk Pesch, Klaus Moessner, Walid Saad, H. Vincent Poor",
+    "year": 2022,
+    "venue": "Proceedings of the IEEE",
+    "doi": "https://doi.org/10.1109/jproc.2022.3173031",
+    "citations": 611
+  },
+  {
+    "title": "An exhaustive review of the metaheuristic algorithms for search and optimization: taxonomy, applications, and open challenges",
+    "authors": "Kanchan Rajwar, Kusum Deep, Swagatam Das",
+    "year": 2023,
+    "venue": "Artificial Intelligence Review",
+    "doi": "https://doi.org/10.1007/s10462-023-10470-y",
+    "citations": 582
+  },
+  {
+    "title": "Summary for Policymakers",
+    "authors": "Jim Skea, P.R. Shukla, Andy Reisinger, Raphael Slade, Minal Pathak, Alaa Al Khourdajie, Renée van Diemen, Amjad Abdulla, Keigo Akimoto, Mustafa Babiker, Quan Bai, I. Bashmakov, Christopher Bataille, Göran Berndes, Gabriel Blanco, Kornelis Blok, Mercedes Bustamante, Edward Byers, Luisa F. Cabeza, Katherine Calvin, Carlo Carraro, Leon Clarke, Annette Cowie, Felix Creutzig, Diriba Korecha Dadi, Dipak Dasgupta, Heleen de Coninck, Fatima Denton, Shobhakar Dhakal, Navroz K. Dubash, Oliver Geden, Michael Grubb, Céline Guivarch, Gupta, Shreekant, Andrea N. Hahmann, Kirsten Halsnæs, Paulina Jaramillo, Kejun Jiang, Frank Jotzo, Jung, Tae Yong, Smail Khennas, Şiir Kılkış, Silvia Kreibiehl, Volker Krey, Elmar Kriegler, William F. Lamb, Franck Lecocq, Shuaib Lwasa, Nagmeldin Mahmoud, Cheikh Mbow, David McCollum, Jan C. Minx, Catherine Mitchell, Rachid Mrabet, Yacob Mulugetta, G.J. Nabuurs, Gregory F. Nemet, Peter J. Newman, Leila Niamir, Niamir , Leila, Sudarmanto Budi Nugroho, Chukwumerije Okereke, Shonali Pachauri, Anthony Patt, Ramón Pichs-Madruga, Joana Portugal‐Pereira, Lavanya Rajamani, Keywan Riahi, Joyashree Roy, Yamina Saheb, Roberto Schaeffer, Karen C. Seto, Shreya Some, Linda Steg, Ferenc L. Tóth, Diána Ürge-Vorsatz, Detlef P. van Vuuren, Elena Verdolini, Purvi Vyas, Yi‐Ming Wei, Mariama Williams, Harald Winkler, Winkler, Harald",
+    "year": 2023,
+    "venue": "Cambridge University Press eBooks",
+    "doi": "https://doi.org/10.1017/9781009157926.001",
+    "citations": 549
+  },
+  {
+    "title": "AI in marketing, consumer research and psychology: A systematic literature review and research agenda",
+    "authors": "Marcello M. Mariani, Rodrigo Perez‐Vega, Jochen Wirtz",
+    "year": 2021,
+    "venue": "Psychology and Marketing",
+    "doi": "https://doi.org/10.1002/mar.21619",
+    "citations": 533
+  },
+  {
+    "title": "Learning design to support student-AI collaboration: perspectives of leading teachers for AI in education",
+    "authors": "Jinhee Kim, Hyun-Kyung Lee, Young Hoan Cho",
+    "year": 2022,
+    "venue": "Education and Information Technologies",
+    "doi": "https://doi.org/10.1007/s10639-021-10831-6",
+    "citations": 530
+  },
+  {
+    "title": "Artificial intelligence in healthcare: transforming the practice of medicine",
+    "authors": "Junaid Bajwa, Usman Munir, Aditya Nori, Bryan Williams",
+    "year": 2021,
+    "venue": "Future Healthcare Journal",
+    "doi": "https://doi.org/10.7861/fhj.2021-0095",
+    "citations": 1544
+  },
+  {
+    "title": "Global maize production, consumption and trade: trends and R&amp;D implications",
+    "authors": "Olaf Erenstein, Moti Jaleta, Kai Sonder, Khondoker Abdul Mottaleb, B. M. Prasanna",
+    "year": 2022,
+    "venue": "Food Security",
+    "doi": "https://doi.org/10.1007/s12571-022-01288-7",
+    "citations": 1135
+  },
+  {
+    "title": "Conceptualizing the Circular Economy (Revisited): An Analysis of 221 Definitions",
+    "authors": "Julian Kirchherr, Nan-Hua Nadja Yang, Frederik Schulze-Spüntrup, Maarten J. Heerink, Kris Hartley",
+    "year": 2023,
+    "venue": "Resources Conservation and Recycling",
+    "doi": "https://doi.org/10.1016/j.resconrec.2023.107001",
+    "citations": 1058
+  },
+  {
+    "title": "High-entropy ceramics: Present status, challenges, and a look forward",
+    "authors": "Huimin Xiang, Yan Xing, Fu‐Zhi Dai, Hongjie Wang, Lei Su, Lei Miao, Guo‐Jun Zhang, Yiguang Wang, Xiwei Qi, Lei Yao, Hailong Wang, Biao Zhao, Jianqiang Li, Yanchun Zhou",
+    "year": 2021,
+    "venue": "Journal of Advanced Ceramics",
+    "doi": "https://doi.org/10.1007/s40145-021-0477-y",
+    "citations": 1049
+  },
+  {
+    "title": "A Survey on the Explainability of Supervised Machine Learning",
+    "authors": "Nadia Burkart, Marco F. Huber",
+    "year": 2021,
+    "venue": "Journal of Artificial Intelligence Research",
+    "doi": "https://doi.org/10.1613/jair.1.12228",
+    "citations": 954
+  }
+]

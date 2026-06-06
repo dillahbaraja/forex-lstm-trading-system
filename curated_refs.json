@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Applications of deep learning in stock market prediction: Recent progress",
+    "authors": "Weiwei Jiang",
+    "year": 2021,
+    "venue": "Expert Systems with Applications",
+    "doi": "https://doi.org/10.1016/j.eswa.2021.115537",
+    "citations": 672
+  },
+  {
+    "title": "A Survey of Forex and Stock Price Prediction Using Deep Learning",
+    "authors": "Zexin Hu, Yiqi Zhao, Matloob Khushi",
+    "year": 2021,
+    "venue": "Applied System Innovation",
+    "doi": "https://doi.org/10.3390/asi4010009",
+    "citations": 318
+  },
+  {
+    "title": "A hybrid model integrating deep learning with investor sentiment analysis for stock price prediction",
+    "authors": "Nan Jing, Zhao Wu, Hefei Wang",
+    "year": 2021,
+    "venue": "Expert Systems with Applications",
+    "doi": "https://doi.org/10.1016/j.eswa.2021.115019",
+    "citations": 342
+  },
+  {
+    "title": "A stock price prediction method based on deep learning technology",
+    "authors": "Xuan Ji, Jiachen Wang, Zhijun Yan",
+    "year": 2021,
+    "venue": "International Journal of Crowd Science",
+    "doi": "https://doi.org/10.1108/ijcs-05-2020-0012",
+    "citations": 169
+  },
+  {
+    "title": "Stock market prediction using deep learning algorithms",
+    "authors": "Somenath Mukherjee, Bikash Sadhukhan, Nairita Sarkar, Debajyoti Roy, Soumil De",
+    "year": 2021,
+    "venue": "CAAI Transactions on Intelligence Technology",
+    "doi": "https://doi.org/10.1049/cit2.12059",
+    "citations": 152
+  },
+  {
+    "title": "Forecasting directional movement of Forex data using LSTM with technical and macroeconomic indicators",
+    "authors": "Deniz Can Yıldırım, İsmail Hakkı Toroslu, Ugo Fiore",
+    "year": 2021,
+    "venue": "Financial Innovation",
+    "doi": "https://doi.org/10.1186/s40854-020-00220-2",
+    "citations": 192
+  },
+  {
+    "title": "Deep learning-based exchange rate prediction during the COVID-19 pandemic",
+    "authors": "Mohammad Zoynul Abedin, Mahmudul Hasan Moon, M. Kabir Hassan, Petr Hájek",
+    "year": 2021,
+    "venue": "Annals of Operations Research",
+    "doi": "https://doi.org/10.1007/s10479-021-04420-6",
+    "citations": 131
+  },
+  {
+    "title": "Forecasting Foreign Exchange Volatility Using Deep Learning Autoencoder‐LSTM Techniques",
+    "authors": "Gunho Jung, Sun‐Yong Choi",
+    "year": 2021,
+    "venue": "Complexity",
+    "doi": "https://doi.org/10.1155/2021/6647534",
+    "citations": 65
+  },
+  {
+    "title": "A stock market trading framework based on deep learning architectures",
+    "authors": "Atharva Shah, Maharshi Gor, Meet Sagar, Manan Shah",
+    "year": 2022,
+    "venue": "Multimedia Tools and Applications",
+    "doi": "https://doi.org/10.1007/s11042-022-12328-x",
+    "citations": 50
+  },
+  {
+    "title": "Effect of labeling algorithms on financial performance metrics",
+    "authors": "Tomislav Kovačević, Sven Goluža, Andro Merćep, Zvonko Kostanjčar",
+    "year": 2022,
+    "venue": "2022 45th Jubilee International Convention on Information, Communication and Electronic Technology (MIPRO)",
+    "doi": "https://doi.org/10.23919/mipro55190.2022.9803522",
+    "citations": 4
+  },
+  {
+    "title": "Adaptation interventions and their effect on vulnerability in developing countries: Help, hindrance or irrelevance?",
+    "authors": "Siri Eriksen, E. Lisa F. Schipper, Morgan Scoville-Simonds, Katharine Vincent, Hans Nicolai Adam, Nick Brooks, Brian Harding, Dil Khatri, Lutgart Lenaerts, Diana Liverman, Megan Mills‐Novoa, Marianne Mosberg, Synne Movik, Benard Muok, Andrea J. Nightingale, Hemant Ojha, Linda Sygna, Marcus Taylor, Coleen Vogel, Jennifer Joy West",
+    "year": 2021,
+    "venue": "World Development",
+    "doi": "https://doi.org/10.1016/j.worlddev.2020.105383",
+    "citations": 754
+  },
+  {
+    "title": "A Survey on the Explainability of Supervised Machine Learning",
+    "authors": "Nadia Burkart, Marco F. Huber",
+    "year": 2021,
+    "venue": "Journal of Artificial Intelligence Research",
+    "doi": "https://doi.org/10.1613/jair.1.12228",
+    "citations": 954
+  },
+  {
+    "title": "A systematic global stocktake of evidence on human adaptation to climate change",
+    "authors": "Lea Berrang‐Ford, A.R. Siders, Alexandra Lesnikowski, A. Paige Fischer, Max Callaghan, Neal Haddaway, Katharine J. Mach, Malcolm Araos, Mohammad Aminur Rahman Shah, Mia Wannewitz, Deepal Doshi, Timo Leiter, Custódio Matavel, Justice Issah Musah-Surugu, Gabrielle Wong‐Parodi, Philip Antwi‐Agyei, Idowu Ajibade, Neha Chauhan, William Kakenmaster, Caitlin Grady, Vasiliki Ι. Chalastani, Kripa Jagannathan, Eranga K. Galappaththi, Asha Sitati, Giulia Scarpa, Edmond Totin, Katy Davis, Nikita Charles Hamilton, Christine Kirchhoff, Praveen Kumar, Brian Pentz, Nicholas P. Simpson, Emily Theokritoff, Delphine Deryng, Diana Reckien, Carol Zavaleta-Cortijo, Nícola Ulibarrí, Alcade C. Segnon, Vhalinavho Khavhagali, Yuanyuan Shang, Luckson Zvobgo, Zinta Zommers, Jiren Xu, Portia Adade Williams, Iván Villaverde Canosa, Nicole van Maanen, Bianca van Bavel, Maarten van Aalst, Lynée L. Turek‐Hankins, Hasti Trivedi, Christopher H. Trisos, Adelle Thomas, Shinny Thakur, Sienna Templeman, Lindsay C. Stringer, Garry Sotnik, Kathryn Dana Sjostrom, Chandni Singh, Mariella Siña, Roopam Shukla, Jordi Sardans, Eunice A. Salubi, Lolita Shaila Safaee Chalkasra, Raquel Ruiz‐Díaz, C. Richards, Pratik Pokharel, Jan Petzold, Josep Peñuelas, Julia Pelaez Avila, Julia B. Pazmino Murillo, Souha Ouni, Jennifer Niemann, Miriam Nielsen, Mark New, Patricia Nayna Schwerdtle, Gabriela Nagle Alverio, C. Mullin, Joshua Mullenite, Anuszka Mosurska, Michael D. Morecroft, Jan C. Minx, Gina Maskell, Abraham Marshall Nunbogu, Alexandre Magnan, Shuaib Lwasa, Megan Lukas-Sithole, Tabea Lissner, Oliver Lilford, Steven Koller, Matthew Jurjonas, Elphin Tom Joe, Lam Thi Mai Huynh, Avery P. Hill, Rebecca R. Hernandez, Greeshma Hegde, Tom Hawxwell, Sherilee L. Harper, Alexandra Harden, Marjolijn Haasnoot, Elisabeth Gilmore",
+    "year": 2021,
+    "venue": "Nature Climate Change",
+    "doi": "https://doi.org/10.1038/s41558-021-01170-y",
+    "citations": 602
+  },
+  {
+    "title": "Teachers’ AI digital competencies and twenty-first century skills in the post-pandemic world",
+    "authors": "Davy Tsz Kit Ng, Jac Ka Lok Leung, Jiahong Su, Chi Wui Ng, Samuel Kai Wah Chu",
+    "year": 2023,
+    "venue": "Educational Technology Research and Development",
+    "doi": "https://doi.org/10.1007/s11423-023-10203-6",
+    "citations": 558
+  },
+  {
+    "title": "Introducing the “15-Minute City”: Sustainability, Resilience and Place Identity in Future Post-Pandemic Cities",
+    "authors": "Carlos Moreno, Zaheer Allam, Didier Chabaud, Catherine Gall, Florent Pratlong",
+    "year": 2021,
+    "venue": "Smart Cities",
+    "doi": "https://doi.org/10.3390/smartcities4010006",
+    "citations": 1698
+  },
+  {
+    "title": "Predictive modeling of foreign exchange trading signals using machine learning techniques",
+    "authors": "Sugarbayar Enkhbayar, Robert Ślepaczuk",
+    "year": 2025,
+    "venue": "Expert Systems with Applications",
+    "doi": "https://doi.org/10.1016/j.eswa.2025.127729",
+    "citations": 7
+  },
+  {
+    "title": "Nonverbal overload: A theoretical argument for the causes of Zoom fatigue.",
+    "authors": "Jeremy N. Bailenson",
+    "year": 2021,
+    "venue": "Technology Mind and Behavior",
+    "doi": "https://doi.org/10.1037/tmb0000030",
+    "citations": 1119
+  },
+  {
+    "title": "VIX constant maturity futures trading strategy: A walk-forward machine learning study",
+    "authors": "Sangyuan Wang, Keran Li, Yaling Liu, Yijun Chen, Xianbo Tang",
+    "year": 2024,
+    "venue": "PLoS ONE",
+    "doi": "https://doi.org/10.1371/journal.pone.0302289",
+    "citations": 3
+  },
+  {
+    "title": "Forecasting intraday volatility and densities using deep learning",
+    "authors": "Bruno Morier, Pedro L. Valls Pereira",
+    "year": 2025,
+    "venue": "The Quarterly Review of Economics and Finance",
+    "doi": "https://doi.org/10.1016/j.qref.2025.102076",
+    "citations": 2
+  },
+  {
+    "title": "An Enhanced Energy Optimization Model for Industrial Wireless Sensor Networks Using Machine Learning",
+    "authors": "Ashish Bagwari, J. Logeshwaran, K. Usha, Raju Kannadasan, Mohammed H. Alsharif, Peerapong Uthansakul, Monthippa Uthansakul",
+    "year": 2023,
+    "venue": "IEEE Access",
+    "doi": "https://doi.org/10.1109/access.2023.3311854",
+    "citations": 146
+  },
+  {
+    "title": "Can Robots Understand Welfare? Exploring Machine Bureaucracies in Welfare-to-Work",
+    "authors": "Mark Considine, Michael McGann, Sarah Ball, Phuc Nguyen",
+    "year": 2022,
+    "venue": "Journal of Social Policy",
+    "doi": "https://doi.org/10.1017/s0047279422000174",
+    "citations": 58
+  },
+  {
+    "title": "The Role of implementing Artificial Intelligence and Machine Learning Technologies in the financial services Industry for creating Competitive Intelligence",
+    "authors": "V. Mahalakshmi, Nirzar Kulkarni, K.V. Pradeep Kumar, K.V. Pradeep Kumar, K. Suresh Kumar, K. Suresh Kumar, D. Nidhi Sree, S. Durga",
+    "year": 2021,
+    "venue": "Materials Today Proceedings",
+    "doi": "https://doi.org/10.1016/j.matpr.2021.11.577",
+    "citations": 83
+  },
+  {
+    "title": "Artificial intelligence techniques in financial trading: A systematic literature review",
+    "authors": "Fatima Dakalbab, Manar Abu Talib, Qassim Nasir, Tracy Saroufil",
+    "year": 2024,
+    "venue": "Journal of King Saud University - Computer and Information Sciences",
+    "doi": "https://doi.org/10.1016/j.jksuci.2024.102015",
+    "citations": 61
+  },
+  {
+    "title": "Machine learning and deep learning",
+    "authors": "Christian Janiesch, Patrick Zschech, Kai Heinrich",
+    "year": 2021,
+    "venue": "Electronic Markets",
+    "doi": "https://doi.org/10.1007/s12525-021-00475-2",
+    "citations": 2428
+  },
+  {
+    "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+    "authors": "Haoyi Zhou, Shanghang Zhang, Jieqi Peng, Shuai Zhang, Jianxin Li, Hui Xiong, Wancai Zhang",
+    "year": 2021,
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "doi": "https://doi.org/10.1609/aaai.v35i12.17325",
+    "citations": 5906
+  },
+  {
+    "title": "Multi-scale convolution enhanced transformer for multivariate long-term time series forecasting",
+    "authors": "Ao Li, Ying Li, Yunyang Xu, Xuemei Li, Caiming Zhang",
+    "year": 2024,
+    "venue": "Neural Networks",
+    "doi": "https://doi.org/10.1016/j.neunet.2024.106745",
+    "citations": 43
+  },
+  {
+    "title": "Time Series Forecasting with Transformer Models and Application to Asset Management",
+    "authors": "Edmond Lezmi, Jiali Xu",
+    "year": 2023,
+    "venue": "SSRN Electronic Journal",
+    "doi": "https://doi.org/10.2139/ssrn.4375798",
+    "citations": 35
+  },
+  {
+    "title": "Attention-Based Spatiotemporal Graph Fusion Convolution Networks for Water Quality Prediction",
+    "authors": "Junfei Qiao, Yongze Lin, Jing Bi, Haitao Yuan, Gongming Wang, MengChu Zhou",
+    "year": 2024,
+    "venue": "IEEE Transactions on Automation Science and Engineering",
+    "doi": "https://doi.org/10.1109/tase.2023.3285253",
+    "citations": 40
+  },
+  {
+    "title": "Multivariate Time Series Deep Spatiotemporal Forecasting with Graph Neural Network",
+    "authors": "Zichao He, Chunna Zhao, Yaqun Huang",
+    "year": 2022,
+    "venue": "Applied Sciences",
+    "doi": "https://doi.org/10.3390/app12115731",
+    "citations": 31
+  },
+  {
+    "title": "A Deep Reinforcement Learning Framework for Optimal Trade Execution",
+    "authors": "Siyu Lin, Peter A. Beling",
+    "year": 2021,
+    "venue": "Lecture notes in computer science",
+    "doi": "https://doi.org/10.1007/978-3-030-67670-4_14",
+    "citations": 7
+  }
+]

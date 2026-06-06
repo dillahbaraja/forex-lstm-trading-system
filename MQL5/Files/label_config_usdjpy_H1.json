@@ -1,0 +1,17 @@
+{
+  "label_params": {
+    "future_horizon": 24,
+    "tp_mult": 2.0,
+    "sl_mult": 1.5,
+    "min_move_atr": 0.5,
+    "neutral_margin_atr": 0.08,
+    "aux_horizons": []
+  },
+  "label_config_hash": "b319969e188a720ef4fb182c86127392661afd8817c22442fa53a9c4b958526a",
+  "target_map": {
+    "0": "DOWN",
+    "1": "SIDEWAYS",
+    "2": "UP"
+  },
+  "aux_horizons": []
+}

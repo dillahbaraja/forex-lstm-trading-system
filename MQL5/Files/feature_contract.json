@@ -1,0 +1,36 @@
+{
+  "feature_count": 25,
+  "sequence_length": 24,
+  "feature_columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "RSI",
+    "ATR",
+    "MACD_Main",
+    "MACD_Signal",
+    "Bands_Upper",
+    "Bands_Lower",
+    "Stoch_Main",
+    "Stoch_Signal",
+    "ADX_Main",
+    "ADX_PlusDI",
+    "ADX_MinusDI",
+    "RSI_H4",
+    "MA_H4",
+    "RSI_M15",
+    "ATR_M15",
+    "Hour_Sin",
+    "Hour_Cos",
+    "DayOfWeek_Sin",
+    "DayOfWeek_Cos",
+    "Daily_Trend_Proxy"
+  ],
+  "target_map": {
+    "0": "DOWN",
+    "1": "SIDEWAYS",
+    "2": "UP"
+  }
+}

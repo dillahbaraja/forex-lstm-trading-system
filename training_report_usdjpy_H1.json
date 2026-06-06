@@ -1,0 +1,1747 @@
+{
+  "symbol": "USDJPY",
+  "timeframe": "H1",
+  "csv_file": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\USDJPY_H1_Data.csv",
+  "strict_eurusd_baseline_mode": false,
+  "selection_reason": "best walk-forward tuple (expectancy_r, profit_factor, -max_drawdown_r, macro_f1, weighted_f1, coverage_ratio) with coverage floor",
+  "selected_label_params": {
+    "future_horizon": 24,
+    "tp_mult": 2.0,
+    "sl_mult": 1.5,
+    "min_move_atr": 0.5,
+    "neutral_margin_atr": 0.08
+  },
+  "selected_label_config_hash": "f66ad4634d5cd4b3a1bde7394e42486f7255f3d89c92f311204a63aef0db4496",
+  "feature_contract": {
+    "feature_count": 25,
+    "sequence_length": 24,
+    "feature_columns": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "Volume",
+      "RSI",
+      "ATR",
+      "MACD_Main",
+      "MACD_Signal",
+      "Bands_Upper",
+      "Bands_Lower",
+      "Stoch_Main",
+      "Stoch_Signal",
+      "ADX_Main",
+      "ADX_PlusDI",
+      "ADX_MinusDI",
+      "RSI_H4",
+      "MA_H4",
+      "RSI_M15",
+      "ATR_M15",
+      "Hour_Sin",
+      "Hour_Cos",
+      "DayOfWeek_Sin",
+      "DayOfWeek_Cos",
+      "Daily_Trend_Proxy"
+    ]
+  },
+  "feature_contract_hash": "3e4b29a628e09d925011eb052358fd32a1a863a863946297b6669730a8e88bce",
+  "booster_feature_contract": {
+    "feature_count": 30,
+    "feature_columns": [
+      "base_prob_down",
+      "base_prob_sideways",
+      "base_prob_up",
+      "base_confidence",
+      "base_confidence_gap",
+      "last_Open",
+      "last_High",
+      "last_Low",
+      "last_Close",
+      "last_Volume",
+      "last_RSI",
+      "last_ATR",
+      "last_MACD_Main",
+      "last_MACD_Signal",
+      "last_Bands_Upper",
+      "last_Bands_Lower",
+      "last_Stoch_Main",
+      "last_Stoch_Signal",
+      "last_ADX_Main",
+      "last_ADX_PlusDI",
+      "last_ADX_MinusDI",
+      "last_RSI_H4",
+      "last_MA_H4",
+      "last_RSI_M15",
+      "last_ATR_M15",
+      "last_Hour_Sin",
+      "last_Hour_Cos",
+      "last_DayOfWeek_Sin",
+      "last_DayOfWeek_Cos",
+      "last_Daily_Trend_Proxy"
+    ]
+  },
+  "threshold_config": {
+    "base": {
+      "confidence_threshold": 0.53,
+      "min_confidence_edge": 0.1,
+      "source": "base_validation_metrics"
+    },
+    "booster": null,
+    "recommended_signal_mode": "base_only"
+  },
+  "label_sweep_reports": [
+    {
+      "label_params": {
+        "future_horizon": 18,
+        "tp_mult": 1.8,
+        "sl_mult": 1.2,
+        "min_move_atr": 0.35,
+        "neutral_margin_atr": 0.05
+      },
+      "label_config_hash": "f87e9956c3c96d7a38254acf479423f05552a5b7fd76dbb6d78fa442ec4d46c3",
+      "feature_contract_hash": "3e4b29a628e09d925011eb052358fd32a1a863a863946297b6669730a8e88bce",
+      "class_histogram": {
+        "0": 19270,
+        "1": 1026,
+        "2": 14663
+      },
+      "summary": {
+        "mean_accuracy": 0.43401983218916856,
+        "mean_macro_f1": 0.3368861036112657,
+        "mean_weighted_f1": 0.4669270848708962,
+        "mean_expectancy_r": 0.3687863668248205,
+        "mean_profit_factor": 1.9340370392653647,
+        "mean_max_drawdown_r": 43.83333333333357,
+        "mean_trade_count": 2178.5,
+        "mean_confidence_ge_threshold_ratio": 0.5195461479786423
+      },
+      "summary_tuple": [
+        0.3687863668248205,
+        1.9340370392653647,
+        -43.83333333333357,
+        0.3368861036112657,
+        0.4669270848708962,
+        0.5195461479786423,
+        2178.5
+      ]
+    },
+    {
+      "label_params": {
+        "future_horizon": 24,
+        "tp_mult": 2.0,
+        "sl_mult": 1.5,
+        "min_move_atr": 0.5,
+        "neutral_margin_atr": 0.08
+      },
+      "label_config_hash": "f66ad4634d5cd4b3a1bde7394e42486f7255f3d89c92f311204a63aef0db4496",
+      "feature_contract_hash": "3e4b29a628e09d925011eb052358fd32a1a863a863946297b6669730a8e88bce",
+      "class_histogram": {
+        "0": 18512,
+        "1": 773,
+        "2": 15668
+      },
+      "summary": {
+        "mean_accuracy": 0.45851611672706466,
+        "mean_macro_f1": 0.33673114954470396,
+        "mean_weighted_f1": 0.47215350784591864,
+        "mean_expectancy_r": 0.4368813781742541,
+        "mean_profit_factor": 2.161220043572985,
+        "mean_max_drawdown_r": 14.33333333333333,
+        "mean_trade_count": 252.5,
+        "mean_confidence_ge_threshold_ratio": 0.05950791531565897
+      },
+      "summary_tuple": [
+        0.4368813781742541,
+        2.161220043572985,
+        -14.33333333333333,
+        0.33673114954470396,
+        0.47215350784591864,
+        0.05950791531565897,
+        252.5
+      ]
+    },
+    {
+      "label_params": {
+        "future_horizon": 24,
+        "tp_mult": 2.2,
+        "sl_mult": 1.5,
+        "min_move_atr": 0.65,
+        "neutral_margin_atr": 0.1
+      },
+      "label_config_hash": "796ab51293ddd45ee9e8cf07293fbe602c2604e2f7508c1d3554997a3c45913e",
+      "feature_contract_hash": "3e4b29a628e09d925011eb052358fd32a1a863a863946297b6669730a8e88bce",
+      "class_histogram": {
+        "0": 18762,
+        "1": 1094,
+        "2": 15097
+      },
+      "summary": {
+        "mean_accuracy": 0.4383940492084685,
+        "mean_macro_f1": 0.3294107365073726,
+        "mean_weighted_f1": 0.46700031839927836,
+        "mean_expectancy_r": 0.4172581499343493,
+        "mean_profit_factor": 2.229987319507506,
+        "mean_max_drawdown_r": 33.833333333333314,
+        "mean_trade_count": 1576.5,
+        "mean_confidence_ge_threshold_ratio": 0.35170703795536906
+      },
+      "summary_tuple": [
+        0.4172581499343493,
+        2.229987319507506,
+        -33.833333333333314,
+        0.3294107365073726,
+        0.46700031839927836,
+        0.35170703795536906,
+        1576.5
+      ]
+    },
+    {
+      "label_params": {
+        "future_horizon": 30,
+        "tp_mult": 2.4,
+        "sl_mult": 1.6,
+        "min_move_atr": 0.75,
+        "neutral_margin_atr": 0.12
+      },
+      "label_config_hash": "49b283ba89aa4a2a54275bae4b1500d8b22460161e8c9f389fb4d7ccb433cd28",
+      "feature_contract_hash": "3e4b29a628e09d925011eb052358fd32a1a863a863946297b6669730a8e88bce",
+      "class_histogram": {
+        "0": 18955,
+        "1": 1067,
+        "2": 14925
+      },
+      "summary": {
+        "mean_accuracy": 0.4347577260587562,
+        "mean_macro_f1": 0.33535119027795285,
+        "mean_weighted_f1": 0.4601427701634824,
+        "mean_expectancy_r": 0.27574523682372715,
+        "mean_profit_factor": 1.6422023578183702,
+        "mean_max_drawdown_r": 71.83333333333313,
+        "mean_trade_count": 2697.0,
+        "mean_confidence_ge_threshold_ratio": 0.5726821823731401
+      },
+      "summary_tuple": [
+        0.27574523682372715,
+        1.6422023578183702,
+        -71.83333333333313,
+        0.33535119027795285,
+        0.4601427701634824,
+        0.5726821823731401,
+        2697.0
+      ]
+    }
+  ],
+  "selected_walk_forward_summary": {
+    "mean_accuracy": 0.45851611672706466,
+    "mean_macro_f1": 0.33673114954470396,
+    "mean_weighted_f1": 0.47215350784591864,
+    "mean_expectancy_r": 0.4368813781742541,
+    "mean_profit_factor": 2.161220043572985,
+    "mean_max_drawdown_r": 14.33333333333333,
+    "mean_trade_count": 252.5,
+    "mean_confidence_ge_threshold_ratio": 0.05950791531565897
+  },
+  "final_training_report": {
+    "run_id": "20260528T103910Z_usdjpy_H1_seq24_3e4b29a6_f66ad463",
+    "run_dir": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260528T103910Z_usdjpy_H1_seq24_3e4b29a6_f66ad463",
+    "history_dir": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs",
+    "index_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\index_usdjpy_H1.jsonl",
+    "latest_pointer_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\latest_run_usdjpy_H1.json",
+    "best_registry_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\best_registry_usdjpy_H1.json",
+    "resume_source": "history_best_checkpoint",
+    "resumed_from_checkpoint": true,
+    "checkpoint_dir": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260528T103910Z_usdjpy_H1_seq24_3e4b29a6_f66ad463",
+    "checkpoint_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260528T103910Z_usdjpy_H1_seq24_3e4b29a6_f66ad463\\last.keras",
+    "resume_checkpoint_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260527T060214Z_usdjpy_H1_seq24_3e4b29a6_f87e9956\\best.keras",
+    "best_checkpoint_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260528T103910Z_usdjpy_H1_seq24_3e4b29a6_f66ad463\\best.keras",
+    "state_path": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260528T103910Z_usdjpy_H1_seq24_3e4b29a6_f66ad463\\training_state.json",
+    "feature_contract": {
+      "feature_count": 25,
+      "sequence_length": 24,
+      "feature_columns": [
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "RSI",
+        "ATR",
+        "MACD_Main",
+        "MACD_Signal",
+        "Bands_Upper",
+        "Bands_Lower",
+        "Stoch_Main",
+        "Stoch_Signal",
+        "ADX_Main",
+        "ADX_PlusDI",
+        "ADX_MinusDI",
+        "RSI_H4",
+        "MA_H4",
+        "RSI_M15",
+        "ATR_M15",
+        "Hour_Sin",
+        "Hour_Cos",
+        "DayOfWeek_Sin",
+        "DayOfWeek_Cos",
+        "Daily_Trend_Proxy"
+      ]
+    },
+    "feature_contract_hash": "3e4b29a628e09d925011eb052358fd32a1a863a863946297b6669730a8e88bce",
+    "training_schema_version": 3,
+    "model_family": "single_head_binary_booster_v1",
+    "label_config": {
+      "future_horizon": 24,
+      "tp_mult": 2.0,
+      "sl_mult": 1.5,
+      "min_move_atr": 0.5,
+      "neutral_margin_atr": 0.08
+    },
+    "label_config_hash": "f66ad4634d5cd4b3a1bde7394e42486f7255f3d89c92f311204a63aef0db4496",
+    "class_histogram": {
+      "0": 18512,
+      "1": 773,
+      "2": 15668
+    },
+    "best_validation_epoch": 7,
+    "best_validation_score_tuple": [
+      0.6065573770491803,
+      2.9473684210526314,
+      -12.333333333333329,
+      0.26485937345150484,
+      0.37758476932327917,
+      0.14838832729353424
+    ],
+    "best_validation_loss": 1.1499595642089844,
+    "best_validation_metrics": {
+      "accuracy": 0.30707610146862485,
+      "macro_f1": 0.26485937345150484,
+      "weighted_f1": 0.37758476932327917,
+      "macro_precision": 0.3465803864256518,
+      "macro_recall": 0.3643912805289528,
+      "confusion_matrix": [
+        [
+          938,
+          1291,
+          773
+        ],
+        [
+          25,
+          42,
+          19
+        ],
+        [
+          661,
+          864,
+          630
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5775862068965517,
+          "recall": 0.31245836109260494,
+          "f1-score": 0.40553393860786857,
+          "support": 3002.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.019116977696859355,
+          "recall": 0.4883720930232558,
+          "f1-score": 0.03679369250985545,
+          "support": 86.0
+        },
+        "UP": {
+          "precision": 0.4430379746835443,
+          "recall": 0.2923433874709977,
+          "f1-score": 0.3522504892367906,
+          "support": 2155.0
+        },
+        "accuracy": 0.30707610146862485,
+        "macro avg": {
+          "precision": 0.3465803864256518,
+          "recall": 0.3643912805289528,
+          "f1-score": 0.26485937345150484,
+          "support": 5243.0
+        },
+        "weighted avg": {
+          "precision": 0.5131231525135258,
+          "recall": 0.30707610146862485,
+          "f1-score": 0.37758476932327917,
+          "support": 5243.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.14838832729353424,
+      "trading_proxy": {
+        "trade_count": 61,
+        "win_rate": 0.6885245901639344,
+        "expectancy_r": 0.6065573770491803,
+        "profit_factor": 2.9473684210526314,
+        "max_drawdown_r": 12.333333333333329,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0,
+          5.333333333333333,
+          6.666666666666666,
+          7.999999999999999,
+          9.333333333333332,
+          10.666666666666666,
+          12.0,
+          13.333333333333334,
+          12.333333333333334,
+          13.666666666666668,
+          15.000000000000002,
+          16.333333333333336,
+          17.666666666666668,
+          19.0,
+          20.333333333333332,
+          21.666666666666664,
+          22.999999999999996,
+          24.33333333333333,
+          25.66666666666666,
+          26.999999999999993,
+          28.333333333333325,
+          29.666666666666657,
+          30.99999999999999,
+          32.33333333333332,
+          33.66666666666666,
+          34.99999999999999,
+          36.33333333333333,
+          37.666666666666664,
+          36.666666666666664,
+          35.666666666666664,
+          37.0,
+          38.333333333333336,
+          39.66666666666667,
+          38.66666666666667,
+          40.00000000000001,
+          41.33333333333334,
+          42.66666666666668,
+          44.000000000000014,
+          45.33333333333335,
+          44.33333333333335,
+          43.33333333333335,
+          42.33333333333335,
+          41.33333333333335,
+          40.33333333333335,
+          39.33333333333335,
+          38.33333333333335,
+          37.33333333333335,
+          36.33333333333335,
+          35.33333333333335,
+          36.666666666666686,
+          38.00000000000002,
+          37.00000000000002,
+          36.00000000000002,
+          35.00000000000002,
+          34.00000000000002,
+          33.00000000000002,
+          34.33333333333336,
+          35.66666666666669,
+          37.00000000000003
+        ]
+      }
+    },
+    "training_history": {
+      "epochs_ran": 67,
+      "final_loss": 0.5369985103607178,
+      "final_val_loss": 1.2005058526992798,
+      "final_accuracy": 0.7082856297492981,
+      "final_val_accuracy": 0.4447835087776184,
+      "start_epoch": 0,
+      "target_epochs": 300
+    },
+    "validation_metrics": {
+      "accuracy": 0.30707610146862485,
+      "macro_f1": 0.26485937345150484,
+      "weighted_f1": 0.37758476932327917,
+      "macro_precision": 0.3465803864256518,
+      "macro_recall": 0.3643912805289528,
+      "confusion_matrix": [
+        [
+          938,
+          1291,
+          773
+        ],
+        [
+          25,
+          42,
+          19
+        ],
+        [
+          661,
+          864,
+          630
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5775862068965517,
+          "recall": 0.31245836109260494,
+          "f1-score": 0.40553393860786857,
+          "support": 3002.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.019116977696859355,
+          "recall": 0.4883720930232558,
+          "f1-score": 0.03679369250985545,
+          "support": 86.0
+        },
+        "UP": {
+          "precision": 0.4430379746835443,
+          "recall": 0.2923433874709977,
+          "f1-score": 0.3522504892367906,
+          "support": 2155.0
+        },
+        "accuracy": 0.30707610146862485,
+        "macro avg": {
+          "precision": 0.3465803864256518,
+          "recall": 0.3643912805289528,
+          "f1-score": 0.26485937345150484,
+          "support": 5243.0
+        },
+        "weighted avg": {
+          "precision": 0.5131231525135258,
+          "recall": 0.30707610146862485,
+          "f1-score": 0.37758476932327917,
+          "support": 5243.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.14838832729353424,
+      "trading_proxy": {
+        "trade_count": 61,
+        "win_rate": 0.6885245901639344,
+        "expectancy_r": 0.6065573770491803,
+        "profit_factor": 2.9473684210526314,
+        "max_drawdown_r": 12.333333333333329,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0,
+          5.333333333333333,
+          6.666666666666666,
+          7.999999999999999,
+          9.333333333333332,
+          10.666666666666666,
+          12.0,
+          13.333333333333334,
+          12.333333333333334,
+          13.666666666666668,
+          15.000000000000002,
+          16.333333333333336,
+          17.666666666666668,
+          19.0,
+          20.333333333333332,
+          21.666666666666664,
+          22.999999999999996,
+          24.33333333333333,
+          25.66666666666666,
+          26.999999999999993,
+          28.333333333333325,
+          29.666666666666657,
+          30.99999999999999,
+          32.33333333333332,
+          33.66666666666666,
+          34.99999999999999,
+          36.33333333333333,
+          37.666666666666664,
+          36.666666666666664,
+          35.666666666666664,
+          37.0,
+          38.333333333333336,
+          39.66666666666667,
+          38.66666666666667,
+          40.00000000000001,
+          41.33333333333334,
+          42.66666666666668,
+          44.000000000000014,
+          45.33333333333335,
+          44.33333333333335,
+          43.33333333333335,
+          42.33333333333335,
+          41.33333333333335,
+          40.33333333333335,
+          39.33333333333335,
+          38.33333333333335,
+          37.33333333333335,
+          36.33333333333335,
+          35.33333333333335,
+          36.666666666666686,
+          38.00000000000002,
+          37.00000000000002,
+          36.00000000000002,
+          35.00000000000002,
+          34.00000000000002,
+          33.00000000000002,
+          34.33333333333336,
+          35.66666666666669,
+          37.00000000000003
+        ]
+      }
+    },
+    "test_metrics": {
+      "accuracy": 0.28060640732265446,
+      "macro_f1": 0.25237500611004987,
+      "weighted_f1": 0.3478327464095094,
+      "macro_precision": 0.3411130717443605,
+      "macro_recall": 0.3812050589728706,
+      "confusion_matrix": [
+        [
+          470,
+          852,
+          458
+        ],
+        [
+          9,
+          41,
+          19
+        ],
+        [
+          458,
+          719,
+          470
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5016008537886874,
+          "recall": 0.2640449438202247,
+          "f1-score": 0.3459698196540302,
+          "support": 1780.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.02543424317617866,
+          "recall": 0.5942028985507246,
+          "f1-score": 0.04878048780487805,
+          "support": 69.0
+        },
+        "UP": {
+          "precision": 0.4963041182682154,
+          "recall": 0.28536733454766244,
+          "f1-score": 0.36237471087124135,
+          "support": 1647.0
+        },
+        "accuracy": 0.28060640732265446,
+        "macro avg": {
+          "precision": 0.3411130717443605,
+          "recall": 0.3812050589728706,
+          "f1-score": 0.25237500611004987,
+          "support": 3496.0
+        },
+        "weighted avg": {
+          "precision": 0.48970748435662775,
+          "recall": 0.28060640732265446,
+          "f1-score": 0.3478327464095094,
+          "support": 3496.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.15760869565217392,
+      "trading_proxy": {
+        "trade_count": 3,
+        "win_rate": 1.0,
+        "expectancy_r": 1.3333333333333333,
+        "profit_factor": Infinity,
+        "max_drawdown_r": 0.0,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0
+        ]
+      }
+    },
+    "final_sample_weights": 1.0,
+    "comparison_to_previous": {
+      "previous_run_id": "20260528T033222Z_usdjpy_H1_seq24_3e4b29a6_49b283ba",
+      "previous_run_dir": "C:\\Users\\dilla\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075\\MQL5\\Experts\\LSTM\\training_runs\\20260528T033222Z_usdjpy_H1_seq24_3e4b29a6_49b283ba",
+      "previous_best_score_tuple": [
+        0.36440129449838193,
+        1.8894154818325433,
+        -54.0,
+        0.23523185803102672,
+        0.3371002091230893,
+        0.44524990461655856
+      ],
+      "current_best_score_tuple": [
+        0.6065573770491803,
+        2.9473684210526314,
+        -12.333333333333329,
+        0.26485937345150484,
+        0.37758476932327917,
+        0.14838832729353424
+      ],
+      "new_best_model": true,
+      "metric_deltas": {
+        "validation_accuracy_delta": 0.04687007323512621,
+        "test_accuracy_delta": 0.016800970985029307,
+        "validation_macro_f1_delta": 0.029627515420478118,
+        "test_macro_f1_delta": 0.007244604214414946,
+        "validation_weighted_f1_delta": 0.04048456020018987,
+        "test_weighted_f1_delta": 0.024542730446026395,
+        "validation_macro_precision_delta": -0.006780108634326265,
+        "test_macro_precision_delta": -0.0020051062628747007,
+        "validation_macro_recall_delta": 0.006184335803074814,
+        "test_macro_recall_delta": 0.02401893428415819,
+        "validation_confidence_ge_threshold_ratio_delta": -0.2968615773230243,
+        "test_confidence_ge_threshold_ratio_delta": -0.31420818560676744,
+        "validation_trading_expectancy_r_delta": 0.2421560825507984,
+        "test_trading_expectancy_r_delta": 1.0693400167084377,
+        "validation_trading_profit_factor_delta": 1.0579529392200882,
+        "test_trading_profit_factor_delta": Infinity,
+        "validation_trading_max_drawdown_r_delta": -41.66666666666667,
+        "test_trading_max_drawdown_r_delta": -47.000000000000114,
+        "validation_trading_trade_count_delta": -454.0,
+        "test_trading_trade_count_delta": -396.0,
+        "validation_trading_win_rate_delta": 0.10794206589208977,
+        "test_trading_win_rate_delta": 0.47117794486215536
+      }
+    },
+    "aux_horizons": [],
+    "selection_reason": "selected by best walk-forward expectancy/profit factor with macro F1 tie-breaker, subject to coverage floor; training resumes from best compatible history when available",
+    "base_validation_metrics": {
+      "accuracy": 0.30707610146862485,
+      "macro_f1": 0.26485937345150484,
+      "weighted_f1": 0.37758476932327917,
+      "macro_precision": 0.3465803864256518,
+      "macro_recall": 0.3643912805289528,
+      "confusion_matrix": [
+        [
+          938,
+          1291,
+          773
+        ],
+        [
+          25,
+          42,
+          19
+        ],
+        [
+          661,
+          864,
+          630
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5775862068965517,
+          "recall": 0.31245836109260494,
+          "f1-score": 0.40553393860786857,
+          "support": 3002.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.019116977696859355,
+          "recall": 0.4883720930232558,
+          "f1-score": 0.03679369250985545,
+          "support": 86.0
+        },
+        "UP": {
+          "precision": 0.4430379746835443,
+          "recall": 0.2923433874709977,
+          "f1-score": 0.3522504892367906,
+          "support": 2155.0
+        },
+        "accuracy": 0.30707610146862485,
+        "macro avg": {
+          "precision": 0.3465803864256518,
+          "recall": 0.3643912805289528,
+          "f1-score": 0.26485937345150484,
+          "support": 5243.0
+        },
+        "weighted avg": {
+          "precision": 0.5131231525135258,
+          "recall": 0.30707610146862485,
+          "f1-score": 0.37758476932327917,
+          "support": 5243.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.14838832729353424,
+      "trading_proxy": {
+        "trade_count": 61,
+        "win_rate": 0.6885245901639344,
+        "expectancy_r": 0.6065573770491803,
+        "profit_factor": 2.9473684210526314,
+        "max_drawdown_r": 12.333333333333329,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0,
+          5.333333333333333,
+          6.666666666666666,
+          7.999999999999999,
+          9.333333333333332,
+          10.666666666666666,
+          12.0,
+          13.333333333333334,
+          12.333333333333334,
+          13.666666666666668,
+          15.000000000000002,
+          16.333333333333336,
+          17.666666666666668,
+          19.0,
+          20.333333333333332,
+          21.666666666666664,
+          22.999999999999996,
+          24.33333333333333,
+          25.66666666666666,
+          26.999999999999993,
+          28.333333333333325,
+          29.666666666666657,
+          30.99999999999999,
+          32.33333333333332,
+          33.66666666666666,
+          34.99999999999999,
+          36.33333333333333,
+          37.666666666666664,
+          36.666666666666664,
+          35.666666666666664,
+          37.0,
+          38.333333333333336,
+          39.66666666666667,
+          38.66666666666667,
+          40.00000000000001,
+          41.33333333333334,
+          42.66666666666668,
+          44.000000000000014,
+          45.33333333333335,
+          44.33333333333335,
+          43.33333333333335,
+          42.33333333333335,
+          41.33333333333335,
+          40.33333333333335,
+          39.33333333333335,
+          38.33333333333335,
+          37.33333333333335,
+          36.33333333333335,
+          35.33333333333335,
+          36.666666666666686,
+          38.00000000000002,
+          37.00000000000002,
+          36.00000000000002,
+          35.00000000000002,
+          34.00000000000002,
+          33.00000000000002,
+          34.33333333333336,
+          35.66666666666669,
+          37.00000000000003
+        ]
+      }
+    },
+    "base_test_metrics": {
+      "accuracy": 0.28060640732265446,
+      "macro_f1": 0.25237500611004987,
+      "weighted_f1": 0.3478327464095094,
+      "macro_precision": 0.3411130717443605,
+      "macro_recall": 0.3812050589728706,
+      "confusion_matrix": [
+        [
+          470,
+          852,
+          458
+        ],
+        [
+          9,
+          41,
+          19
+        ],
+        [
+          458,
+          719,
+          470
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5016008537886874,
+          "recall": 0.2640449438202247,
+          "f1-score": 0.3459698196540302,
+          "support": 1780.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.02543424317617866,
+          "recall": 0.5942028985507246,
+          "f1-score": 0.04878048780487805,
+          "support": 69.0
+        },
+        "UP": {
+          "precision": 0.4963041182682154,
+          "recall": 0.28536733454766244,
+          "f1-score": 0.36237471087124135,
+          "support": 1647.0
+        },
+        "accuracy": 0.28060640732265446,
+        "macro avg": {
+          "precision": 0.3411130717443605,
+          "recall": 0.3812050589728706,
+          "f1-score": 0.25237500611004987,
+          "support": 3496.0
+        },
+        "weighted avg": {
+          "precision": 0.48970748435662775,
+          "recall": 0.28060640732265446,
+          "f1-score": 0.3478327464095094,
+          "support": 3496.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.15760869565217392,
+      "trading_proxy": {
+        "trade_count": 3,
+        "win_rate": 1.0,
+        "expectancy_r": 1.3333333333333333,
+        "profit_factor": Infinity,
+        "max_drawdown_r": 0.0,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0
+        ]
+      }
+    },
+    "booster": {
+      "enabled": false,
+      "status": "skipped_degenerate_final_gate",
+      "reason": "Combined booster stack produced only 8 validation trades, below coverage floor 52; using base LSTM only.",
+      "feature_count": 30,
+      "feature_columns": [
+        "base_prob_down",
+        "base_prob_sideways",
+        "base_prob_up",
+        "base_confidence",
+        "base_confidence_gap",
+        "last_Open",
+        "last_High",
+        "last_Low",
+        "last_Close",
+        "last_Volume",
+        "last_RSI",
+        "last_ATR",
+        "last_MACD_Main",
+        "last_MACD_Signal",
+        "last_Bands_Upper",
+        "last_Bands_Lower",
+        "last_Stoch_Main",
+        "last_Stoch_Signal",
+        "last_ADX_Main",
+        "last_ADX_PlusDI",
+        "last_ADX_MinusDI",
+        "last_RSI_H4",
+        "last_MA_H4",
+        "last_RSI_M15",
+        "last_ATR_M15",
+        "last_Hour_Sin",
+        "last_Hour_Cos",
+        "last_DayOfWeek_Sin",
+        "last_DayOfWeek_Cos",
+        "last_Daily_Trend_Proxy"
+      ],
+      "params": null,
+      "validation_metrics": null,
+      "validation_tuple": null,
+      "train_rows": 7340,
+      "val_rows": 3146,
+      "onnx_path": null
+    },
+    "threshold_config": {
+      "base": {
+        "confidence_threshold": 0.53,
+        "min_confidence_edge": 0.1,
+        "source": "base_validation_metrics"
+      },
+      "booster": null,
+      "recommended_signal_mode": "base_only"
+    },
+    "final_stack_metrics": {
+      "base_validation_metrics": {
+        "accuracy": 0.30707610146862485,
+        "macro_f1": 0.26485937345150484,
+        "weighted_f1": 0.37758476932327917,
+        "macro_precision": 0.3465803864256518,
+        "macro_recall": 0.3643912805289528,
+        "confusion_matrix": [
+          [
+            938,
+            1291,
+            773
+          ],
+          [
+            25,
+            42,
+            19
+          ],
+          [
+            661,
+            864,
+            630
+          ]
+        ],
+        "classification_report": {
+          "DOWN": {
+            "precision": 0.5775862068965517,
+            "recall": 0.31245836109260494,
+            "f1-score": 0.40553393860786857,
+            "support": 3002.0
+          },
+          "SIDEWAYS": {
+            "precision": 0.019116977696859355,
+            "recall": 0.4883720930232558,
+            "f1-score": 0.03679369250985545,
+            "support": 86.0
+          },
+          "UP": {
+            "precision": 0.4430379746835443,
+            "recall": 0.2923433874709977,
+            "f1-score": 0.3522504892367906,
+            "support": 2155.0
+          },
+          "accuracy": 0.30707610146862485,
+          "macro avg": {
+            "precision": 0.3465803864256518,
+            "recall": 0.3643912805289528,
+            "f1-score": 0.26485937345150484,
+            "support": 5243.0
+          },
+          "weighted avg": {
+            "precision": 0.5131231525135258,
+            "recall": 0.30707610146862485,
+            "f1-score": 0.37758476932327917,
+            "support": 5243.0
+          }
+        },
+        "confidence_ge_threshold_ratio": 0.14838832729353424,
+        "trading_proxy": {
+          "trade_count": 61,
+          "win_rate": 0.6885245901639344,
+          "expectancy_r": 0.6065573770491803,
+          "profit_factor": 2.9473684210526314,
+          "max_drawdown_r": 12.333333333333329,
+          "equity_curve_tail_r": [
+            1.3333333333333333,
+            2.6666666666666665,
+            4.0,
+            5.333333333333333,
+            6.666666666666666,
+            7.999999999999999,
+            9.333333333333332,
+            10.666666666666666,
+            12.0,
+            13.333333333333334,
+            12.333333333333334,
+            13.666666666666668,
+            15.000000000000002,
+            16.333333333333336,
+            17.666666666666668,
+            19.0,
+            20.333333333333332,
+            21.666666666666664,
+            22.999999999999996,
+            24.33333333333333,
+            25.66666666666666,
+            26.999999999999993,
+            28.333333333333325,
+            29.666666666666657,
+            30.99999999999999,
+            32.33333333333332,
+            33.66666666666666,
+            34.99999999999999,
+            36.33333333333333,
+            37.666666666666664,
+            36.666666666666664,
+            35.666666666666664,
+            37.0,
+            38.333333333333336,
+            39.66666666666667,
+            38.66666666666667,
+            40.00000000000001,
+            41.33333333333334,
+            42.66666666666668,
+            44.000000000000014,
+            45.33333333333335,
+            44.33333333333335,
+            43.33333333333335,
+            42.33333333333335,
+            41.33333333333335,
+            40.33333333333335,
+            39.33333333333335,
+            38.33333333333335,
+            37.33333333333335,
+            36.33333333333335,
+            35.33333333333335,
+            36.666666666666686,
+            38.00000000000002,
+            37.00000000000002,
+            36.00000000000002,
+            35.00000000000002,
+            34.00000000000002,
+            33.00000000000002,
+            34.33333333333336,
+            35.66666666666669,
+            37.00000000000003
+          ]
+        }
+      },
+      "base_test_metrics": {
+        "accuracy": 0.28060640732265446,
+        "macro_f1": 0.25237500611004987,
+        "weighted_f1": 0.3478327464095094,
+        "macro_precision": 0.3411130717443605,
+        "macro_recall": 0.3812050589728706,
+        "confusion_matrix": [
+          [
+            470,
+            852,
+            458
+          ],
+          [
+            9,
+            41,
+            19
+          ],
+          [
+            458,
+            719,
+            470
+          ]
+        ],
+        "classification_report": {
+          "DOWN": {
+            "precision": 0.5016008537886874,
+            "recall": 0.2640449438202247,
+            "f1-score": 0.3459698196540302,
+            "support": 1780.0
+          },
+          "SIDEWAYS": {
+            "precision": 0.02543424317617866,
+            "recall": 0.5942028985507246,
+            "f1-score": 0.04878048780487805,
+            "support": 69.0
+          },
+          "UP": {
+            "precision": 0.4963041182682154,
+            "recall": 0.28536733454766244,
+            "f1-score": 0.36237471087124135,
+            "support": 1647.0
+          },
+          "accuracy": 0.28060640732265446,
+          "macro avg": {
+            "precision": 0.3411130717443605,
+            "recall": 0.3812050589728706,
+            "f1-score": 0.25237500611004987,
+            "support": 3496.0
+          },
+          "weighted avg": {
+            "precision": 0.48970748435662775,
+            "recall": 0.28060640732265446,
+            "f1-score": 0.3478327464095094,
+            "support": 3496.0
+          }
+        },
+        "confidence_ge_threshold_ratio": 0.15760869565217392,
+        "trading_proxy": {
+          "trade_count": 3,
+          "win_rate": 1.0,
+          "expectancy_r": 1.3333333333333333,
+          "profit_factor": Infinity,
+          "max_drawdown_r": 0.0,
+          "equity_curve_tail_r": [
+            1.3333333333333333,
+            2.6666666666666665,
+            4.0
+          ]
+        }
+      },
+      "combined_validation_metrics": {
+        "accuracy": 0.30707610146862485,
+        "macro_f1": 0.26485937345150484,
+        "weighted_f1": 0.37758476932327917,
+        "macro_precision": 0.3465803864256518,
+        "macro_recall": 0.3643912805289528,
+        "confusion_matrix": [
+          [
+            938,
+            1291,
+            773
+          ],
+          [
+            25,
+            42,
+            19
+          ],
+          [
+            661,
+            864,
+            630
+          ]
+        ],
+        "classification_report": {
+          "DOWN": {
+            "precision": 0.5775862068965517,
+            "recall": 0.31245836109260494,
+            "f1-score": 0.40553393860786857,
+            "support": 3002.0
+          },
+          "SIDEWAYS": {
+            "precision": 0.019116977696859355,
+            "recall": 0.4883720930232558,
+            "f1-score": 0.03679369250985545,
+            "support": 86.0
+          },
+          "UP": {
+            "precision": 0.4430379746835443,
+            "recall": 0.2923433874709977,
+            "f1-score": 0.3522504892367906,
+            "support": 2155.0
+          },
+          "accuracy": 0.30707610146862485,
+          "macro avg": {
+            "precision": 0.3465803864256518,
+            "recall": 0.3643912805289528,
+            "f1-score": 0.26485937345150484,
+            "support": 5243.0
+          },
+          "weighted avg": {
+            "precision": 0.5131231525135258,
+            "recall": 0.30707610146862485,
+            "f1-score": 0.37758476932327917,
+            "support": 5243.0
+          }
+        },
+        "confidence_ge_threshold_ratio": 0.14838832729353424,
+        "trading_proxy": {
+          "trade_count": 61,
+          "win_rate": 0.6885245901639344,
+          "expectancy_r": 0.6065573770491803,
+          "profit_factor": 2.9473684210526314,
+          "max_drawdown_r": 12.333333333333329,
+          "equity_curve_tail_r": [
+            1.3333333333333333,
+            2.6666666666666665,
+            4.0,
+            5.333333333333333,
+            6.666666666666666,
+            7.999999999999999,
+            9.333333333333332,
+            10.666666666666666,
+            12.0,
+            13.333333333333334,
+            12.333333333333334,
+            13.666666666666668,
+            15.000000000000002,
+            16.333333333333336,
+            17.666666666666668,
+            19.0,
+            20.333333333333332,
+            21.666666666666664,
+            22.999999999999996,
+            24.33333333333333,
+            25.66666666666666,
+            26.999999999999993,
+            28.333333333333325,
+            29.666666666666657,
+            30.99999999999999,
+            32.33333333333332,
+            33.66666666666666,
+            34.99999999999999,
+            36.33333333333333,
+            37.666666666666664,
+            36.666666666666664,
+            35.666666666666664,
+            37.0,
+            38.333333333333336,
+            39.66666666666667,
+            38.66666666666667,
+            40.00000000000001,
+            41.33333333333334,
+            42.66666666666668,
+            44.000000000000014,
+            45.33333333333335,
+            44.33333333333335,
+            43.33333333333335,
+            42.33333333333335,
+            41.33333333333335,
+            40.33333333333335,
+            39.33333333333335,
+            38.33333333333335,
+            37.33333333333335,
+            36.33333333333335,
+            35.33333333333335,
+            36.666666666666686,
+            38.00000000000002,
+            37.00000000000002,
+            36.00000000000002,
+            35.00000000000002,
+            34.00000000000002,
+            33.00000000000002,
+            34.33333333333336,
+            35.66666666666669,
+            37.00000000000003
+          ]
+        }
+      },
+      "combined_test_metrics": {
+        "accuracy": 0.28060640732265446,
+        "macro_f1": 0.25237500611004987,
+        "weighted_f1": 0.3478327464095094,
+        "macro_precision": 0.3411130717443605,
+        "macro_recall": 0.3812050589728706,
+        "confusion_matrix": [
+          [
+            470,
+            852,
+            458
+          ],
+          [
+            9,
+            41,
+            19
+          ],
+          [
+            458,
+            719,
+            470
+          ]
+        ],
+        "classification_report": {
+          "DOWN": {
+            "precision": 0.5016008537886874,
+            "recall": 0.2640449438202247,
+            "f1-score": 0.3459698196540302,
+            "support": 1780.0
+          },
+          "SIDEWAYS": {
+            "precision": 0.02543424317617866,
+            "recall": 0.5942028985507246,
+            "f1-score": 0.04878048780487805,
+            "support": 69.0
+          },
+          "UP": {
+            "precision": 0.4963041182682154,
+            "recall": 0.28536733454766244,
+            "f1-score": 0.36237471087124135,
+            "support": 1647.0
+          },
+          "accuracy": 0.28060640732265446,
+          "macro avg": {
+            "precision": 0.3411130717443605,
+            "recall": 0.3812050589728706,
+            "f1-score": 0.25237500611004987,
+            "support": 3496.0
+          },
+          "weighted avg": {
+            "precision": 0.48970748435662775,
+            "recall": 0.28060640732265446,
+            "f1-score": 0.3478327464095094,
+            "support": 3496.0
+          }
+        },
+        "confidence_ge_threshold_ratio": 0.15760869565217392,
+        "trading_proxy": {
+          "trade_count": 3,
+          "win_rate": 1.0,
+          "expectancy_r": 1.3333333333333333,
+          "profit_factor": Infinity,
+          "max_drawdown_r": 0.0,
+          "equity_curve_tail_r": [
+            1.3333333333333333,
+            2.6666666666666665,
+            4.0
+          ]
+        }
+      }
+    },
+    "stack_selection_reason": "base LSTM selected without booster because no booster candidate satisfied the minimum trade coverage constraint"
+  },
+  "stack_metrics": {
+    "base_validation_metrics": {
+      "accuracy": 0.30707610146862485,
+      "macro_f1": 0.26485937345150484,
+      "weighted_f1": 0.37758476932327917,
+      "macro_precision": 0.3465803864256518,
+      "macro_recall": 0.3643912805289528,
+      "confusion_matrix": [
+        [
+          938,
+          1291,
+          773
+        ],
+        [
+          25,
+          42,
+          19
+        ],
+        [
+          661,
+          864,
+          630
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5775862068965517,
+          "recall": 0.31245836109260494,
+          "f1-score": 0.40553393860786857,
+          "support": 3002.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.019116977696859355,
+          "recall": 0.4883720930232558,
+          "f1-score": 0.03679369250985545,
+          "support": 86.0
+        },
+        "UP": {
+          "precision": 0.4430379746835443,
+          "recall": 0.2923433874709977,
+          "f1-score": 0.3522504892367906,
+          "support": 2155.0
+        },
+        "accuracy": 0.30707610146862485,
+        "macro avg": {
+          "precision": 0.3465803864256518,
+          "recall": 0.3643912805289528,
+          "f1-score": 0.26485937345150484,
+          "support": 5243.0
+        },
+        "weighted avg": {
+          "precision": 0.5131231525135258,
+          "recall": 0.30707610146862485,
+          "f1-score": 0.37758476932327917,
+          "support": 5243.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.14838832729353424,
+      "trading_proxy": {
+        "trade_count": 61,
+        "win_rate": 0.6885245901639344,
+        "expectancy_r": 0.6065573770491803,
+        "profit_factor": 2.9473684210526314,
+        "max_drawdown_r": 12.333333333333329,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0,
+          5.333333333333333,
+          6.666666666666666,
+          7.999999999999999,
+          9.333333333333332,
+          10.666666666666666,
+          12.0,
+          13.333333333333334,
+          12.333333333333334,
+          13.666666666666668,
+          15.000000000000002,
+          16.333333333333336,
+          17.666666666666668,
+          19.0,
+          20.333333333333332,
+          21.666666666666664,
+          22.999999999999996,
+          24.33333333333333,
+          25.66666666666666,
+          26.999999999999993,
+          28.333333333333325,
+          29.666666666666657,
+          30.99999999999999,
+          32.33333333333332,
+          33.66666666666666,
+          34.99999999999999,
+          36.33333333333333,
+          37.666666666666664,
+          36.666666666666664,
+          35.666666666666664,
+          37.0,
+          38.333333333333336,
+          39.66666666666667,
+          38.66666666666667,
+          40.00000000000001,
+          41.33333333333334,
+          42.66666666666668,
+          44.000000000000014,
+          45.33333333333335,
+          44.33333333333335,
+          43.33333333333335,
+          42.33333333333335,
+          41.33333333333335,
+          40.33333333333335,
+          39.33333333333335,
+          38.33333333333335,
+          37.33333333333335,
+          36.33333333333335,
+          35.33333333333335,
+          36.666666666666686,
+          38.00000000000002,
+          37.00000000000002,
+          36.00000000000002,
+          35.00000000000002,
+          34.00000000000002,
+          33.00000000000002,
+          34.33333333333336,
+          35.66666666666669,
+          37.00000000000003
+        ]
+      }
+    },
+    "base_test_metrics": {
+      "accuracy": 0.28060640732265446,
+      "macro_f1": 0.25237500611004987,
+      "weighted_f1": 0.3478327464095094,
+      "macro_precision": 0.3411130717443605,
+      "macro_recall": 0.3812050589728706,
+      "confusion_matrix": [
+        [
+          470,
+          852,
+          458
+        ],
+        [
+          9,
+          41,
+          19
+        ],
+        [
+          458,
+          719,
+          470
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5016008537886874,
+          "recall": 0.2640449438202247,
+          "f1-score": 0.3459698196540302,
+          "support": 1780.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.02543424317617866,
+          "recall": 0.5942028985507246,
+          "f1-score": 0.04878048780487805,
+          "support": 69.0
+        },
+        "UP": {
+          "precision": 0.4963041182682154,
+          "recall": 0.28536733454766244,
+          "f1-score": 0.36237471087124135,
+          "support": 1647.0
+        },
+        "accuracy": 0.28060640732265446,
+        "macro avg": {
+          "precision": 0.3411130717443605,
+          "recall": 0.3812050589728706,
+          "f1-score": 0.25237500611004987,
+          "support": 3496.0
+        },
+        "weighted avg": {
+          "precision": 0.48970748435662775,
+          "recall": 0.28060640732265446,
+          "f1-score": 0.3478327464095094,
+          "support": 3496.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.15760869565217392,
+      "trading_proxy": {
+        "trade_count": 3,
+        "win_rate": 1.0,
+        "expectancy_r": 1.3333333333333333,
+        "profit_factor": Infinity,
+        "max_drawdown_r": 0.0,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0
+        ]
+      }
+    },
+    "booster_validation_metrics": null,
+    "combined_validation_metrics": {
+      "accuracy": 0.30707610146862485,
+      "macro_f1": 0.26485937345150484,
+      "weighted_f1": 0.37758476932327917,
+      "macro_precision": 0.3465803864256518,
+      "macro_recall": 0.3643912805289528,
+      "confusion_matrix": [
+        [
+          938,
+          1291,
+          773
+        ],
+        [
+          25,
+          42,
+          19
+        ],
+        [
+          661,
+          864,
+          630
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5775862068965517,
+          "recall": 0.31245836109260494,
+          "f1-score": 0.40553393860786857,
+          "support": 3002.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.019116977696859355,
+          "recall": 0.4883720930232558,
+          "f1-score": 0.03679369250985545,
+          "support": 86.0
+        },
+        "UP": {
+          "precision": 0.4430379746835443,
+          "recall": 0.2923433874709977,
+          "f1-score": 0.3522504892367906,
+          "support": 2155.0
+        },
+        "accuracy": 0.30707610146862485,
+        "macro avg": {
+          "precision": 0.3465803864256518,
+          "recall": 0.3643912805289528,
+          "f1-score": 0.26485937345150484,
+          "support": 5243.0
+        },
+        "weighted avg": {
+          "precision": 0.5131231525135258,
+          "recall": 0.30707610146862485,
+          "f1-score": 0.37758476932327917,
+          "support": 5243.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.14838832729353424,
+      "trading_proxy": {
+        "trade_count": 61,
+        "win_rate": 0.6885245901639344,
+        "expectancy_r": 0.6065573770491803,
+        "profit_factor": 2.9473684210526314,
+        "max_drawdown_r": 12.333333333333329,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0,
+          5.333333333333333,
+          6.666666666666666,
+          7.999999999999999,
+          9.333333333333332,
+          10.666666666666666,
+          12.0,
+          13.333333333333334,
+          12.333333333333334,
+          13.666666666666668,
+          15.000000000000002,
+          16.333333333333336,
+          17.666666666666668,
+          19.0,
+          20.333333333333332,
+          21.666666666666664,
+          22.999999999999996,
+          24.33333333333333,
+          25.66666666666666,
+          26.999999999999993,
+          28.333333333333325,
+          29.666666666666657,
+          30.99999999999999,
+          32.33333333333332,
+          33.66666666666666,
+          34.99999999999999,
+          36.33333333333333,
+          37.666666666666664,
+          36.666666666666664,
+          35.666666666666664,
+          37.0,
+          38.333333333333336,
+          39.66666666666667,
+          38.66666666666667,
+          40.00000000000001,
+          41.33333333333334,
+          42.66666666666668,
+          44.000000000000014,
+          45.33333333333335,
+          44.33333333333335,
+          43.33333333333335,
+          42.33333333333335,
+          41.33333333333335,
+          40.33333333333335,
+          39.33333333333335,
+          38.33333333333335,
+          37.33333333333335,
+          36.33333333333335,
+          35.33333333333335,
+          36.666666666666686,
+          38.00000000000002,
+          37.00000000000002,
+          36.00000000000002,
+          35.00000000000002,
+          34.00000000000002,
+          33.00000000000002,
+          34.33333333333336,
+          35.66666666666669,
+          37.00000000000003
+        ]
+      }
+    },
+    "combined_test_metrics": {
+      "accuracy": 0.28060640732265446,
+      "macro_f1": 0.25237500611004987,
+      "weighted_f1": 0.3478327464095094,
+      "macro_precision": 0.3411130717443605,
+      "macro_recall": 0.3812050589728706,
+      "confusion_matrix": [
+        [
+          470,
+          852,
+          458
+        ],
+        [
+          9,
+          41,
+          19
+        ],
+        [
+          458,
+          719,
+          470
+        ]
+      ],
+      "classification_report": {
+        "DOWN": {
+          "precision": 0.5016008537886874,
+          "recall": 0.2640449438202247,
+          "f1-score": 0.3459698196540302,
+          "support": 1780.0
+        },
+        "SIDEWAYS": {
+          "precision": 0.02543424317617866,
+          "recall": 0.5942028985507246,
+          "f1-score": 0.04878048780487805,
+          "support": 69.0
+        },
+        "UP": {
+          "precision": 0.4963041182682154,
+          "recall": 0.28536733454766244,
+          "f1-score": 0.36237471087124135,
+          "support": 1647.0
+        },
+        "accuracy": 0.28060640732265446,
+        "macro avg": {
+          "precision": 0.3411130717443605,
+          "recall": 0.3812050589728706,
+          "f1-score": 0.25237500611004987,
+          "support": 3496.0
+        },
+        "weighted avg": {
+          "precision": 0.48970748435662775,
+          "recall": 0.28060640732265446,
+          "f1-score": 0.3478327464095094,
+          "support": 3496.0
+        }
+      },
+      "confidence_ge_threshold_ratio": 0.15760869565217392,
+      "trading_proxy": {
+        "trade_count": 3,
+        "win_rate": 1.0,
+        "expectancy_r": 1.3333333333333333,
+        "profit_factor": Infinity,
+        "max_drawdown_r": 0.0,
+        "equity_curve_tail_r": [
+          1.3333333333333333,
+          2.6666666666666665,
+          4.0
+        ]
+      }
+    }
+  }
+}
