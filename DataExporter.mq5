@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
 //|                                                 DataExporter.mq5 |
-//|                                  Copyright 2026, Antigravity AI  |
-//|                                             https://www.mql5.com |
+//|                                Copyright 2026, Abdillah Baradja  |
+//|                                           dillahbaraja@gmail.com |
 //+------------------------------------------------------------------+
-#property copyright "Copyright 2026, Antigravity AI"
-#property link      "https://www.mql5.com"
+#property copyright "Copyright 2026, Abdillah Baradja"
+#property link      "dillahbaraja@gmail.com"
 #property version   "1.00"
 
 // --- Inputs ---
